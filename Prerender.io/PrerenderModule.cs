@@ -178,10 +178,6 @@ namespace Prerender.io
 
             var blacklist = _prerenderConfig.Blacklist;
             if (blacklist != null && IsInBlackList(url, referer, blacklist))
-
-
-
-
             {
                 return false;
             }
